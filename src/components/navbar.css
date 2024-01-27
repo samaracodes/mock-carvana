@@ -1,0 +1,18 @@
+nav {
+    background-color: #ffffff;
+}
+
+.josefin-sans-700, .nav-item {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    padding-right: 15px;
+    color: #183558;
+}
+
+.navbar-brand {
+    padding-right: 40px;
+}
+
