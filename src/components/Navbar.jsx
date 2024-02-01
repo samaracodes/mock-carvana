@@ -1,11 +1,10 @@
-import {React, ReactDOM} from 'react'
 import { NavLink } from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = () => {
     return (
         <>
-            <nav class="navbar fixed-top navbar-expand-md">
+            <nav class="navbar navbar-expand-md bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="/src/assets/CarvanaLOGO1.png" alt="Carvana Brand Logo" width="155"/>
@@ -16,23 +15,25 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <NavLink class="nav-link" href="#" style={{ color: "#183558", fontWeight: "700" }}>SEARCH CARS</NavLink>
+                        <NavLink class="nav-link" href="#" style={{ color: "#183558", fontWeight: "700", textDecoration: "none" }}>SEARCH CARS</NavLink>
                         </li>
                         <li class="nav-item">
-                        <NavLink class="nav-link" href="#" style={{ color: "#183558", fontWeight: "700" }}>SELL/TRADE</NavLink>
+                        <NavLink class="nav-link" href="#" style={{ color: "#183558", fontWeight: "700", textDecoration: "none" }}>SELL/TRADE</NavLink>
                         </li>
                         <li class="nav-item">
-                        <NavLink class="nav-link" href="#" style={{ color: "#183558", fontWeight: "700" }} >FINANCING</NavLink>
+                        <NavLink class="nav-link" href="#" style={{ color: "#183558", fontWeight: "700", textDecoration: "none"  }} >FINANCING</NavLink>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <NavLink class="nav-link" href="#" style={{ color: "#00AED9", fontWeight: "700" }}>SIGN IN</NavLink>
+                            <NavLink class="nav-link" href="#" style={{ color: "#00AED9", fontWeight: "700", textDecoration: "none" }}>SIGN IN</NavLink>
                         </li>
                     </ul>
                     </div>
                 </div>
-                </nav>
+            </nav>
+
+
         </>
     )
 }
